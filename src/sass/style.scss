@@ -1,0 +1,13 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+@import "libs/swiper-bundle.min";
+
+* {
+    font-family: 'TT Lakes', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import "base/variables";
+@import "blocks/text";
+@import "blocks/title";
