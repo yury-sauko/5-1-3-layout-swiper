@@ -1,0 +1,18 @@
+.brand {
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 240px;
+        height: 72px;
+        padding: 0 16px;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background-color: $bg-color-light;
+    }
+    &__arrow {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+}
