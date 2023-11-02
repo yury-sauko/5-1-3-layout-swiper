@@ -21,14 +21,56 @@
             width: 224px;
         }
     }
+    .hide768, .hide1120 {
+        display: none;
+    }
+    .button-wrapper {
+        width: 720px;
+        padding: 24px 0 34px;
+        margin: 0 auto;
+    }
+    .show-brands {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        border: none;
+        background-color: $bg-color-grey;
+        &::before {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url("../icons/View-all-arrows.svg") center center / contain no-repeat;
+        }
+        &::after {
+            content: 'Показать все';
+        }
+    }
+    .hide-brands {
+        &::before {
+            content: '';
+            background: url("../icons/Hide-arrows.svg") center center / contain no-repeat;
+        }
+        &::after {
+            content: 'Скрыть';
+        }
+    }
 }
 
 @media (min-width: 1120px) {
     .swiper {
         &-wrapper {
             grid-template-columns: repeat(4, 240px);
-            grid-template-rows: repeat(3, 72px);
+            grid-template-rows: repeat(2, 72px);
+            grid-auto-rows: 72px;
             column-gap: 32px;
         }
+    }
+    .hide768 {
+        display: block;
+    }
+    .button-wrapper {
+        width: 1056px;
     }
 }
