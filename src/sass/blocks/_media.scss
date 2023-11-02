@@ -21,7 +21,7 @@
             width: 224px;
         }
     }
-    .hide768, .hide1120 {
+    .hide-slide {
         display: none;
     }
     .button-wrapper {
@@ -66,9 +66,9 @@
             grid-auto-rows: 72px;
             column-gap: 32px;
         }
-    }
-    .hide768 {
-        display: block;
+        &-slide:nth-child(7), &-slide:nth-child(8) {
+            display: block;
+        }
     }
     .button-wrapper {
         width: 1056px;

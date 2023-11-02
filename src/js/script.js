@@ -27,10 +27,10 @@ function showHideEl () {
     let swiperSlideHidden = document.querySelectorAll('.hiddenEl');
     
     swiperSlideHidden.forEach( (item, i) => {
-        swiperSlideHidden[i].classList.toggle('hide1120');
+        swiperSlideHidden[i].classList.toggle('hide-slide');
     });
 
-    if (!swiperSlideHidden[0].classList.contains('hide1120')) {
+    if (!swiperSlideHidden[0].classList.contains('hide-slide')) {
         clickToShow.classList.add('hide-brands');
     } else {
         clickToShow.classList.remove('hide-brands');
