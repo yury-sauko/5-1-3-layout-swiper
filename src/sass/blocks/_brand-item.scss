@@ -10,6 +10,16 @@
         border: 1px solid #EAEAEA;
         background-color: $bg-color-light;
     }
+    &__link {
+        &:focus, &:hover {
+            outline: 2px solid $decor-color-border;
+            outline-offset: 5px;
+        }
+        &:active {
+            outline: 2px solid $decor-color-olive;
+            outline-offset: 5px;
+        }
+    }
     &__arrow {
         width: 40px;
         height: 40px;

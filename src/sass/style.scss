@@ -12,7 +12,22 @@
 .container {
     max-width: 1120px;
     margin: 0 auto;
+    padding-bottom: 12px;
     background-color: $bg-color-grey;
+}
+
+.fade-right-320 {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    z-index: 2;
+    width: 24px;
+    height: 81px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.00) 100%);
+}
+
+.button-wrapper {
+    display: none;
 }
 
 @import "blocks/swiper";

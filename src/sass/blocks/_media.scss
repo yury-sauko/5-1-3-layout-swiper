@@ -3,6 +3,9 @@
         display: flex;
         flex-direction: column;
     }
+    .fade-right-320 {
+        display: none;
+    }
     .swiper {
         width: auto;
         height: auto;
@@ -25,6 +28,7 @@
         display: none;
     }
     .button-wrapper {
+        display: block;
         width: 720px;
         padding: 24px 0 34px;
         margin: 0 auto;
