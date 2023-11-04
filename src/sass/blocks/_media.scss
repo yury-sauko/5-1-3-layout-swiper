@@ -50,6 +50,19 @@
         &::after {
             content: 'Показать все';
         }
+        &:focus {
+            outline: 2px solid $decor-color-border;
+            outline-offset: 5px;
+        }
+        &:hover::after {
+            color: $link-color-hover;
+            transition: color 0.2s linear;
+        }
+        &:active::after {
+            color: $link-color-active;
+            text-decoration: underline;
+            transition: all 0.2s linear;
+        }
     }
     .hide-brands {
         &::before {

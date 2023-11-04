@@ -16,6 +16,13 @@
     background-color: $bg-color-grey;
 }
 
+.swiper {
+    position: relative;
+    width: 304px;
+    height: 128px;
+    padding-top: 16px;
+}
+
 .fade-right-320 {
     position: absolute;
     top: 7px;
@@ -30,7 +37,6 @@
     display: none;
 }
 
-@import "blocks/swiper";
 @import "blocks/text";
 @import "blocks/title";
 @import "blocks/brand-item";
